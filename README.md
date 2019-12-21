@@ -1,4 +1,4 @@
-# Webhook Integration / Dialogflow + Node API + deploy on Heroku
+# Webhook / Dialogflow + Node API + deploy on Heroku
 
 A sample application to showcase the integration of DialogFlow and Webhooks written in NodeJS. Google mini and Google assistant web simulator is used to test the application. The API simply returns the text or speech input as speech text back as response.
 
