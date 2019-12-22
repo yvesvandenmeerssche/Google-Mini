@@ -3,18 +3,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 
-const {dialogflow} = require('actions-on-google');
-const functions = require('firebase-functions');
-
-const app = dialogflow({debug: true});
-
 const restService = express();
-
-app.intent('Default Welcome Intent', (conv) => {
-  conv.close('Hello, World!');
-  // Complete your fulfillment logic and
-  // send a response when the function is done executing
-});
 
 restService.use(
   bodyParser.urlencoded({
