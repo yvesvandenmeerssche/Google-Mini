@@ -10,8 +10,6 @@
   },
   "scripts": {
     "lint": "eslint --fix \"**/*.js\"",
-    "start": "firebase serve --only functions",
-    "deploy": "firebase deploy --only functions",
     "test": "npm run lint"
   },
   "dependencies": {
